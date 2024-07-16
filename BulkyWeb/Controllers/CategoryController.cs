@@ -62,7 +62,7 @@ namespace BulkyWeb.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Category obj)
+        public IActionResult Edit(Category obj)
         {
             if (obj.Name == obj.DisplayOrder.ToString())
             {
