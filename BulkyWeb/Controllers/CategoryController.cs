@@ -1,5 +1,9 @@
-﻿using BulkyWeb.Data;
-using BulkyWeb.Models;
+﻿using Bulky.DataAccess;
+using Bulky.DataAccess.Migrations;
+using Bulky.Models;
+using DocumentFormat.OpenXml.Drawing.Diagrams;
+
+using Fluent.Infrastructure.FluentModel;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BulkyWeb.Controllers

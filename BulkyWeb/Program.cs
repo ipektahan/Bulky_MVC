@@ -1,4 +1,6 @@
-using BulkyWeb.Data;
+using Bulky.Data;
+using Bulky.Models;
+using Fluent.Infrastructure.FluentModel;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

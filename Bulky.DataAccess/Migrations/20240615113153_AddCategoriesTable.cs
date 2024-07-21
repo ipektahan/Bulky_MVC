@@ -1,8 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
+using Bulky.DataAccess.Data;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 
 #nullable disable
 
-namespace BulkyWeb.Migrations
+namespace Bulky.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class AddCategoriesTable : Migration
